@@ -10,7 +10,6 @@ with open(followers_path, 'r', encoding='utf-8') as file:
 with open(following_path, 'r', encoding='utf-8') as file:
     following = json.load(file)
 
-
 followers = {x["string_list_data"][0]["value"] for x in followers}
 following = {x["title"] for x in following["relationships_following"]}
 not_following_back = list(following - followers)
