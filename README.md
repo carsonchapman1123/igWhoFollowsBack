@@ -1,5 +1,5 @@
 # igWhoFollowsBack
-igWhoFollowsBack is a Python script that prints a list of users who don't follow you back on Instagram to the console. This used to be a builtin feature on Instagram, however it no longer is so I decided to make this program.
+igWhoFollowsBack is a Python script that prints a list of users who don't follow you back on Instagram. This used to be a builtin feature on Instagram, however it no longer is so I decided to make this program.
 
 ## Instructions
 First you'll need to download your profile information from https://accountscenter.instagram.com/info_and_permissions/dyi/. Select your Instagram profile if prompted and click on `Export to device`. Under `Customize information` you can select only `Followers and following`. For `Date range` you'll want to use `All time` to ensure that all desired data is present. For `Format` select `JSON`. The Media quality setting does not matter.
